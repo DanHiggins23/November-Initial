@@ -1,4 +1,4 @@
-package com.qa.business.service;
+package com.qa.business;
 
 import com.qa.persistance.respositry.IAccountInterface;
 

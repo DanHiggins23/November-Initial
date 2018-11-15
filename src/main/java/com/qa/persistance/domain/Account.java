@@ -4,12 +4,15 @@ import javax.persistence.*;
 
 @Entity
 public class Account {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long accountNum;
     @Column(length = 100)
     private String forename;
     @Column(length = 100)
     private String surname;
+
+    public Account() {
+    }
 
     public Account(Long accountNum, String forename, String surname) {
         this.accountNum = accountNum;
