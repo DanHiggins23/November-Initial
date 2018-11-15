@@ -1,4 +1,4 @@
-package com.qa.persistance.util;
+package com.qa.util;
 
 import com.google.gson.Gson;
 

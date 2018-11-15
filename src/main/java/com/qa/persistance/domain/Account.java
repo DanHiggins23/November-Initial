@@ -11,6 +11,12 @@ public class Account {
     @Column(length = 100)
     private String surname;
 
+    public Account(Long accountNum, String forename, String surname) {
+        this.accountNum = accountNum;
+        this.forename = forename;
+        this.surname = surname;
+    }
+
     public Long getAccountNum() {
         return accountNum;
     }
