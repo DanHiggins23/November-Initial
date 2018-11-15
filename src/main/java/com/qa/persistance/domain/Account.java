@@ -10,4 +10,30 @@ public class Account {
     private String forename;
     @Column(length = 100)
     private String surname;
+
+    public Long getAccountNum() {
+        return accountNum;
+    }
+
+    public void setAccountNum(Long accountNum) {
+        this.accountNum = accountNum;
+    }
+
+    public String getForename() {
+        return forename;
+    }
+
+    public void setForename(String forename) {
+        this.forename = forename;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
 }
+
+
